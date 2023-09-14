@@ -24,3 +24,4 @@
 127.0.0.1 - - [12/Sep/2023:22:34:10 +0800] "GET /js/login.90288d75.js.map HTTP/1.1" 200 10106 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69"
 127.0.0.1 - - [12/Sep/2023:22:34:10 +0800] "GET /js/chunk-vendors.9b7e46a0.js.map HTTP/1.1" 200 10625104 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69"
 127.0.0.1 - - [12/Sep/2023:22:34:15 +0800] "POST /api/employee/login HTTP/1.1" 502 494 "http://localhost/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69"
+127.0.0.1 - - [12/Sep/2023:22:36:19 +0800] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.69"
