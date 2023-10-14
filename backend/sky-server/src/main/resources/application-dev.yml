@@ -19,3 +19,7 @@ sky:
   wechat:
     appid: wxb248abeca0f52929
     secret: daf96850189a2d5d47e9f2a3eb1d72c6
+  shop:
+    address: 辽宁省大连市经济技术开发区图强路136-1、2、3号一层
+  baidu:
+    ak: osg53mDFtuTZ6dKFCXrkSN7BorDhrnS1
