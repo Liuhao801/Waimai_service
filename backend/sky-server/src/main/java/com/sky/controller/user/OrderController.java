@@ -11,6 +11,7 @@ import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.session.RedisSessionProperties;
 import org.springframework.web.bind.annotation.*;
 
 @RestController("userOrderController")
@@ -76,6 +77,14 @@ public class OrderController {
     public Result repetition(@PathVariable Long id){
         log.info("再来一单,订单号：{}",id);
         orderService.repetition(id);
+        return Result.success();
+    }
+
+    @GetMapping("/reminder/{id}")
+    @ApiOperation("客户催单")
+    public Result reminder(@PathVariable Long id){
+        log.info("客户催单，订单号为:{}",id);
+        orderService.reminder(id);
         return Result.success();
     }
 }
